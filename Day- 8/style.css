@@ -1,0 +1,37 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap'); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #span1 { */
+/* text-transform: capitalize; */
+/* text-transform: uppercase;
+  font-style: oblique;
+}
+
+#span2 {
+  font-style: italic;
+  font-variant: small-caps;
+} */
+
+div{
+  line-height: 20px;
+  min-width: 200px;
+  max-width: 400px;
+  min-height: 100px;
+  max-height: 300px;
+  overflow: scroll;
+  /* width: 400px; */
+  background-color: aqua;
+  padding: 40px;
+  border: 2px solid red;
+  margin: 50px;
+}
+/* span{
+    letter-spacing: 10px;
+   
+} */

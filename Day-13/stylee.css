@@ -1,0 +1,85 @@
+/* body {
+  background-color: yellow;
+}
+
+.parent{
+    display: flex;
+    padding: 30px;
+}
+
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: blue;
+  }
+
+  .parent{
+    display: block;
+}
+
+img{
+    width: 95%;
+}
+} */
+
+/* div {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  position: relative;
+}
+
+@keyframes example {
+  0% {
+    background-color: yellow;
+    top: 0;
+    left: 0;
+  }
+  25% {
+    background-color: red;
+    left: 100px;
+    top: 0;
+  }
+  50% {
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+  }
+
+  70% {
+    background-color: green;
+    left: 0;
+    top: 100px;
+  }
+  100% {
+    background-color: yellow;
+    left: 0;
+    top: 0;
+  }
+} */
+
+div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+  border-radius: 50%;
+  background-color: burlywood;
+  animation-name: firstExample;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes firstExample {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(300px);
+  }
+}

@@ -1,0 +1,39 @@
+.none {
+  /* display: inline; */
+  /* display: inline-block; */
+  /* display: none; */
+  /* visibility: hidden; */
+  background-color: aquamarine;
+  width: 100%;
+  height: 200px;
+}
+
+.part1 {
+  border: 1px solid black;
+  float: right;
+  width: 200px;
+}
+
+.part2 {
+  border: 1px solid black;
+  float: left;
+  width: 200px;
+}
+
+.part3{
+    clear: both;
+}
+
+/* Visibility: hidden and display none  */
+/* The difference between display none and visibility hidden is when we apply display none, element will be invisible and its existence will be gone from the webpage but in visibility hidden, element will be hidden but its will not be removed from the webpage */
+
+/* span{
+    display: block;
+    width: 400px;
+    height: 100px;
+    background-color: beige;
+} */
+
+/* .none{
+    display: none;
+} */

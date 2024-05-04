@@ -1,0 +1,16 @@
+#box{
+    background-color: tomato;
+}
+
+
+.headings{
+    width: 500px;
+    background-color: aqua;
+    border: 1px dotted black;
+}
+
+#btn{
+    background-color: beige;
+    color: slategray;
+
+}

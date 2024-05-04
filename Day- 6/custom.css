@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#example{
+    background-color: aquamarine;
+    color: blue;
+    width: 100px;
+    /* shorthand  */
+    /* border: 2px dotted red; */
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+
+
+    /* padding / margin - top right bottom left  */
+    /* padding: 20px 10px 5px 30px;
+    margin: 30px 30px 10px 30px; */
+    padding: 20px 30px;
+    margin: 20px 15px 30px;
+
+
+}

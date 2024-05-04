@@ -1,0 +1,41 @@
+button {
+  color: #d0ccd0;
+  background-color: rgb(74, 54, 31);
+}
+
+body {
+  background-color: #fdffc2;
+}
+
+div {
+  width: 500px;
+  border: 2px dashed red;
+}
+
+#par {
+  color: #0c0c0c;
+  font-size: 30px;
+}
+
+.heading1 {
+    /* font-weight: small; */
+    /* Fallback Mechanism  */
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.heading2 {
+  /* font-weight: bolder; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading3 {
+  /* font-weight: 100; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading4{
+    /* font-weight: 900; */
+    font-family: cursive;
+}
+

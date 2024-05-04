@@ -1,0 +1,54 @@
+/* h1 {
+  text shadow: y x blur color 
+  text-shadow: -2px -2px 3px red, 1px 1px yellow;
+}
+
+h2 {
+  text-shadow: 2px 2px rgb(57, 57, 53);
+}
+
+div{
+    border: 2px solid black;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    box-shadow: -10px -10px 10px inset yellowgreen; */
+/* } */
+
+/* div{
+    background-image: linear-gradient(to right, red, blue);
+    background-image: linear-gradient(to left, red, blue);
+    background-image: linear-gradient( yellow, blue, green, violet, indigo, red, orange);
+    background-image: radial-gradient(blue, pink, yellow);
+    background-image: radial-gradient( circle farthest-side, blue 30%, red 40%, yellow 10%);
+    background-image: repeating-radial-gradient(red, pink 20%, blue 12%);
+    conical gradient 
+    width: 200px;
+    height: 100px;
+} */
+
+#container{
+    min-width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    /* flex-direction: ; */
+    /* gap: 5px; */
+    /* justify-content: center, flex-end, flex-start, space-around, space-between, space-evenly; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    flex-wrap: wrap;
+   
+
+
+
+}
+
+#items{
+    width: 100px;
+    height: 100px;
+    border: 1px groove red;
+    background-color: blueviolet;
+    align-content: flex-end;
+}

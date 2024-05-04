@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a:link,
+      a:active {
+        color: yellow;
+        margin-left: 100px;
+      }
+
+      a:visited {
+        color: black;
+      }
+
+      a:hover {
+        color: cornflowerblue;
+        background-color: aquamarine;
+      }
+      /* 
+            div{
+                width: 100px;
+                height: 100px;
+                border: 1px solid black;
+                background-color: bisque;
+            }
+
+            div:hover{
+                background-color: blue;
+                color: white;
+            } */
+
+      /* div p:last-child::first-line {
+        font-size: 35px;
+      } */
+
+      .box::before{
+        content: 'Before text ';
+      }
+
+      .box::after{
+        content: " This is after effectss &#128644";
+      }
+
+      .box 
+    </style>
+  </head>
+  <body>
+    <a href="https://www.facebook.com/">Facebook</a>
+    <a href="https://www.instagram.com/">Instagram</a>
+    <!-- <div>Box</div> -->
+
+    <!-- <div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+        assumenda, placeat harum quod fugiat magnam, accusamus quibusdam ea
+        possimus, quo blanditiis nobis repellat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+        necessitatibus quaerat officia blanditiis sed reprehenderit ab fugit
+        dignissimos, cumque sint!
+      </p>
+    </div> -->
+
+    <p class="box">Some random paragraph</p>
+  </body>
+</html>

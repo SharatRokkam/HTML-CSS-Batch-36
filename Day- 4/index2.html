@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms and Inputs</title>
+  </head>
+  <body>
+    <!-- <details style="background-color: antiquewhite;">
+      <summary>
+        Three friends – Alex, Phil Dunphy, and Claire Pritchett – went to a
+        movie. Alex sat next to Phil, but not next to Claire. Who sat next to
+        Claire?
+      </summary>
+       Answer : -  Phil sat next to Claire.
+    </details> -->
+
+    <Fieldset>
+        <legend>Application Form</legend>
+    <form action="./result.html">
+      <label for="fName">First Name:</label>
+      <input
+        type="text"
+        id="fName"
+        name="Name"
+        placeholder="enter your first name"
+        required
+      />
+
+      <label for="lName">Last Name: </label>
+      <input
+        type="text"
+        id="lName"
+        name="LName"
+        placeholder="enter your last name"
+      /><br />
+      <br />
+
+      <label for="DOB">Date of Birth</label>
+      <input type="date" id="DOB" name="DOB" />
+
+      <label for="Age">Age</label>
+      <input type="number" id="Age" placeholder="enter your age"  required />
+
+      <label for="Gender">Gender :</label>
+      <select name="gender" id="Gender" required>
+        <option value="Select your option">Select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Non-Binary">Non Binary / Prefer not say</option>
+      </select> <br><br>
+
+      <label for="email">Email</label>
+      <input type="email" id="email"  name="Email" placeholder="enter your email">
+
+      <label for="position">Position</label>
+      <input type="radio" id="position" name="Position" value="frontend">Frontend Developer
+      <input type="radio" id="position" name="Position" value="backend">Backend Developer
+      <input type="radio" id="position" name="Position"  value="fullstack">Full Stack Developer
+      <br><br>
+
+      <label for="progLang">Programming Languages</label>
+      <input type="checkbox" id="progLang" name="Programming1" value="Java">Java
+      <input type="checkbox" id="progLang" name="Programming2" value="Python">Python
+      <input type="checkbox" id="progLang" name="Programming3" value="Javascript">Javascript <br> <br> <br>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="enter your password" required> <br><br>
+
+      <label for="phone">PhoneNumber:</label>
+      <input type="tel" id="phone" name="phone" placeholder="enter your number"> <br><br>
+
+      <label for="interest">Interests</label>
+      <textarea name="Interests" id="interest" cols="10" rows="10"></textarea>
+
+      <input type="reset" value="reset" id="reset">
+      <input type="submit" value="Submit" id="submit">
+
+
+    </form>
+</Fieldset>
+  </body>
+</html>
+
+
+
+Name=sharat&
+LName=rokkam&
+DOB=2024-04-09&
+gender=Male&
+Email=jalfjajlf%40gmail.com&
+Position=frontend&
+Programming2=Python&
+Programming3=Javascript&
+password=khafhafhk&
+phone=979779&
+Interests=jafljafjlajlfjaljfl
